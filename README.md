@@ -3,7 +3,7 @@ This is unofficial torch implementation for prediction of the paper, "CartoonGAN
 
 Input photo | Miyazaki Hayao style
  --- | --- 
-<img src='example/real.jpg' width='300'> | <img src='example/cartoonized.jpg' width='300'>
+<img src='example/real.jpg' width='500'> | <img src='example/cartoonized.jpg' width='500'>
 
 ## Requirements
 * Lua 5.1
