@@ -24,7 +24,7 @@ You can download pre-trained models from author' page. [[Link]](http://cg.cs.tsi
 
 ### Example
 ```bash
-th predict.lua --input example/real.jpg --output example/cartoonized.jpg --models/Hayao_net_G.t7
+th predict.lua --input example/real.jpg --output example/cartoonized.jpg --model models/Hayao_net_G.t7
 ```
 
 ## Reference
