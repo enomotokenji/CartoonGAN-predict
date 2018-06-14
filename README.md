@@ -29,3 +29,4 @@ th predict.lua --input example/real.jpg --output example/cartoonized.jpg --model
 
 ## Reference
 * [1] Yang Chen, Yu-Kun Lai, Yong-Jin Liu. "CartoonGAN: Generative Adversarial Networks for Photo Cartoonization", in CVPR 2018. [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/2205.pdf)
+* `InstanceNormalization.lua` is referred the code of this repo. [[Link]](https://github.com/DmitryUlyanov/texture_nets)
