@@ -50,6 +50,9 @@ end
 if ( args['output_dir'] ~= nil ) and ( not(lfs.attributes(args['output_dir'])) ) then
     lfs.mkdir(args['output_dir'])
 end
+if ( args['output'] ~= nil ) and ( not(lfs.attributes(paths.dirname(args['output']))) ) then
+    paths.mkdir(paths.dirname(args['output']))
+end
 if ( args['input'] ~= nil ) and ( args['output'] == nil ) then
     args['output'] = 'out_'..paths.basename(args['input'])
 end
