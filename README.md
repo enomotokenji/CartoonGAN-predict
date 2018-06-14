@@ -3,7 +3,7 @@ This is unofficial torch implementation for prediction of the paper, "CartoonGAN
 
 Input photo | Miyazaki Hayao style
  --- | --- 
-<img src='example/real.jpg' width='300'> | <img src='example/cartoonized.jpg' width='300'>
+<img src='example/real.jpg' width='500'> | <img src='example/cartoonized.jpg' width='500'>
 
 ## Requirements
 * Lua 5.1
@@ -22,9 +22,9 @@ You can download pre-trained models from author' page. [[Link]](http://cg.cs.tsi
 * `--output_dir`: The path to an output directory. This option is paired with the `--input_dir` option.
 * `--model`: The path to a pre-trained model.
 
-Example
+### Example
 ```bash
-th predict.lua --input example/real.jpg --output example/cartoonized.jpg --models/Hayao_net_G.t7
+th predict.lua --input example/real.jpg --output example/cartoonized.jpg --model models/Hayao_net_G.t7
 ```
 
 ## Reference
