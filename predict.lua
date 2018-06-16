@@ -36,7 +36,7 @@ function predict(input_path, output_path)
     print('Saved '..output_path)
 end
 
-if ( args['models'] == nil ) then
+if ( args['model'] == nil ) then
     print('Specify a pre-trained model')
     os.exit()
 end
